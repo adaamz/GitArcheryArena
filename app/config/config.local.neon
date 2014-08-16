@@ -1,0 +1,10 @@
+parameters:
+
+
+nette:
+	database:
+		dsn: 'mysql:host=localhost;dbname=archeryarena_main'
+		user: 'archeryarena'
+		password: 'HESLO ZAKRYTÉ'
+		options:
+			lazy: yes

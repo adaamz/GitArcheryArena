@@ -1,0 +1,22 @@
+{* This is the welcome page, you can delete it *}
+
+{block content}
+{snippet sendForm}
+<h1>{$welcome}</h1>
+{/snippet}
+<div>
+	{control logInForm}
+</div>
+
+<script>
+	$("form.ajax").live("submit", function () {
+		$(this).ajaxSubmit();
+		return false;
+	});
+
+	$("form.ajax :submit").live("click", function () {
+		$(this).ajaxSubmit();
+		return false;
+	});
+</script>
+{/block}
