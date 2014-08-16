@@ -1,5 +1,5 @@
 <?php
-namespace App\Components\LoginControl
+namespace App\Components\Login;
 	class LoginControl extends \Nette\Application\UI\Control {
 		
 		/**
